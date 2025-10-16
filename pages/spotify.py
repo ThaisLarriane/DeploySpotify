@@ -90,7 +90,7 @@ st.markdown("<h1 class='main-title'>Dashboard para análise Spotify</h1>", unsaf
 
 col1, col2, col3 = st.columns([1, 1, 1])
 with col2:
-    st.image("images\logo_spotify.svg", width=200)
+    # st.image("images\logo_spotify.svg", width=200)
     st.markdown("<p class='image-label'>Um dashboard sobre uma aplicação análoga ao Spotify</p>", unsafe_allow_html=True)
 
 # Sistema de Tabs
